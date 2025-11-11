@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:hsl(0, 0%, 8%);
+    min-height: 100vh;
+     font-family: "Inter", sans-serif;
+     display: grid;
+     place-content: center;
+}
+
+.iner-box{
+
+    background-color: hsl(0, 0%, 12%);
+    color:hsl(0, 0%, 100%);
+    padding: 2rem;
+    margin: 1rem;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 0.7rem;
+}
+
+
+.iner-box img{
+    margin-bottom: .5rem;
+    width: 75px;
+    border-radius: 50%;
+}
+
+.iner-box h1{
+    font-size: 1.75rem;
+    font-weight: 400;
+}
+
+.iner-box h5{
+    font-size: 1rem;
+    margin: 0.5rem 0 1.5rem;
+    color: hsl(75, 94%, 57%);
+    font-weight: 700;
+}
+
+.iner-box ul{
+
+    margin-top: 1.75rem;
+}
+
+
+.iner-box ul li:not(:last-child){
+    margin-bottom: 1rem;
+}
+
+.iner-box ul li a{
+    display: block;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    padding: 1rem;
+    font-weight: 600;
+    border-radius: .5rem;
+}
+
+.iner-box ul li a:hover{
+    background-color: hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 8%) ;
+}
+
+.attribution{
+    padding: .5rem;
+    margin: 1rem;
+    text-decoration: none;
+}
+
+.attribution a{
+    padding: 1rem;
+}
